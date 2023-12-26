@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import ItemListContainer from './components/ItemListContainer'
@@ -23,6 +24,18 @@ const App = () => {
     </BrowserRouter>
   )
 
+=======
+import Navbar from './components/Navbar'
+import ItemListContainer from './components/ItemListContainer'
+
+const App = () => {
+  return (
+    <div>
+      <Navbar />
+      <ItemListContainer greeting={"Bienvenidos a TecnoCommerce"}/>
+    </div>
+  )
+>>>>>>> f1e4275cb674659394df947d754fd81671a97415
 }
 
 export default App

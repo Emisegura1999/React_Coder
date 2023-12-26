@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import Item from './Item'
 
 const ItemList = ({productos}) => {
@@ -18,6 +19,12 @@ const ItemList = ({productos}) => {
         })
       }
     </div>
+=======
+
+const ItemList = () => {
+  return (
+    <div>ItemList</div>
+>>>>>>> f1e4275cb674659394df947d754fd81671a97415
   )
 }
 

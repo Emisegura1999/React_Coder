@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {useState} from 'react'
 import ItemList from './ItemList'
 import { useParams } from 'react-router-dom'
@@ -53,3 +54,14 @@ const ItemListContainer = () => {
   }
   
   export default ItemListContainer
+=======
+import React from 'react'
+
+const ItemListContainer = ({greeting}) => {
+  return (
+    <div>{greeting}</div>
+  )
+}
+
+export default ItemListContainer
+>>>>>>> f1e4275cb674659394df947d754fd81671a97415
